@@ -1,0 +1,4 @@
+java .;cglib.jar; put/simpleExample/auditClient
+
+java -cp  .;cglib.jar; put/benchmark/ObjetoClient 100 10 50 1
+java -cp .;cglib.jar;./../lib/*;./../src; put/benchmark/ObjetoServer 0 10
